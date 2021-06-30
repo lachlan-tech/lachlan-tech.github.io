@@ -5,9 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Madman Games</title>
     <style>
+        ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(255, 255, 255);
+        } 
+        li {
+            float: left;
+        } 
+        li a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        li a:hover:not(.active) {
+            background-color: lightgray;
+        }
         .card {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         max-width: 300px;
+        width: 300px;
+        height: 528px;
         margin: auto;
         text-align: center;
         font-family: arial;
@@ -36,28 +58,275 @@
     </style>
 </head>
 <body>
-    <center><h1>MADMAN GAMES</h1><center>
-    <table>
-        <tr>
-            <td>
-                <div class="card">
-                    <img src="images/snake.jfif" alt="Snake" style="width:100%">
-                    <h1>Snake</h1>
-                    <p class="price">Free</p>
-                    <p>You play as a snake trying to eat apples... But dont run into the walls!!</p>
-                    <p><button>Play</button></p>
-                </div>
-            </td>
-            <td>
-                <div class="card">
-                    <img src="images/snake.jfif" alt="Snake" style="width:100%">
-                    <h1>Dot Blast</h1>
-                    <p class="price">Free</p>
-                    <p>Blast the dots before they eat you!!</p>
-                    <p><button>Play</button></p>
-                </div>
-            </td>
-        </tr>
-    </table>    
+    <div class="nav">
+        <ul>
+            <center><h1>MADMAN GAMES</h1></center>
+        </ul>
+        <ul>
+            <li><a href="">Free</a></li>
+            <li><a href="">Paid</a></li>
+            <li><a href="">Adventure</a></li>
+            <li><a href="">Puzzle</a></li>
+            <li><a href="">Strategy</a></li>
+            <li><a href="">Action</a></li>
+        </ul>
+    </div>
+    <div class="free">
+        <h2>Free</h2>
+        <table>
+            <tr>
+                <td>
+                    <div class="card">
+                        <img src="images/snake.jfif" alt="Snake" style="width:100%">
+                        <h1>Snake</h1>
+                        <p class="price">Free</p>
+                        <p>You play as a snake trying to eat apples... But dont run into the walls!!</p>
+                        <p><button>Play</button></p>
+                    </div>
+                </td>
+                <td>
+                    <div class="card">
+                        <img src="images/snake.jfif" alt="Snake" style="width:100%">
+                        <h1>Dot Blast</h1>
+                        <p class="price">Free</p>
+                        <p>Blast the dots before they eat you!!</p>
+                        <p><button>Play</button></p>
+                    </div>
+                </td>
+                <td>
+                    <div class="card">
+                        <img src="images/snake.jfif" alt="Snake" style="width:100%">
+                        <h1>Snake</h1>
+                        <p class="price">Free</p>
+                        <p>You play as a snake trying to eat apples... But dont run into the walls!!</p>
+                        <p><button>Play</button></p>
+                    </div>
+                </td>
+                <td>
+                    <div class="card">
+                        <img src="images/snake.jfif" alt="Snake" style="width:100%">
+                        <h1>Dot Blast</h1>
+                        <p class="price">Free</p>
+                        <p>Blast the dots before they eat you!!</p>
+                        <p><button>Play</button></p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="paid">
+        <h2>Paid</h2>
+        <table>
+            <tr>
+                <td>
+                    <div class="card">
+                        <img src="images/snake.jfif" alt="Snake" style="width:100%">
+                        <h1>Snake</h1>
+                        <p class="price">Free</p>
+                        <p>You play as a snake trying to eat apples... But dont run into the walls!!</p>
+                        <p><button>Play</button></p>
+                    </div>
+                </td>
+                <td>
+                    <div class="card">
+                        <img src="images/snake.jfif" alt="Snake" style="width:100%">
+                        <h1>Dot Blast</h1>
+                        <p class="price">Free</p>
+                        <p>Blast the dots before they eat you!!</p>
+                        <p><button>Play</button></p>
+                    </div>
+                </td>
+                <td>
+                    <div class="card">
+                        <img src="images/snake.jfif" alt="Snake" style="width:100%">
+                        <h1>Snake</h1>
+                        <p class="price">Free</p>
+                        <p>You play as a snake trying to eat apples... But dont run into the walls!!</p>
+                        <p><button>Play</button></p>
+                    </div>
+                </td>
+                <td>
+                    <div class="card">
+                        <img src="images/snake.jfif" alt="Snake" style="width:100%">
+                        <h1>Dot Blast</h1>
+                        <p class="price">Free</p>
+                        <p>Blast the dots before they eat you!!</p>
+                        <p><button>Play</button></p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="action">
+        <h2>Action</h2>
+        <table>
+            <tr>
+                <td>
+                    <div class="card">
+                        <img src="images/snake.jfif" alt="Snake" style="width:100%">
+                        <h1>Snake</h1>
+                        <p class="price">Free</p>
+                        <p>You play as a snake trying to eat apples... But dont run into the walls!!</p>
+                        <p><button>Play</button></p>
+                    </div>
+                </td>
+                <td>
+                    <div class="card">
+                        <img src="images/snake.jfif" alt="Snake" style="width:100%">
+                        <h1>Dot Blast</h1>
+                        <p class="price">Free</p>
+                        <p>Blast the dots before they eat you!!</p>
+                        <p><button>Play</button></p>
+                    </div>
+                </td>
+                <td>
+                    <div class="card">
+                        <img src="images/snake.jfif" alt="Snake" style="width:100%">
+                        <h1>Snake</h1>
+                        <p class="price">Free</p>
+                        <p>You play as a snake trying to eat apples... But dont run into the walls!!</p>
+                        <p><button>Play</button></p>
+                    </div>
+                </td>
+                <td>
+                    <div class="card">
+                        <img src="images/snake.jfif" alt="Snake" style="width:100%">
+                        <h1>Dot Blast</h1>
+                        <p class="price">Free</p>
+                        <p>Blast the dots before they eat you!!</p>
+                        <p><button>Play</button></p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="strategy">
+        <h2>Strategy</h2>
+        <table>
+            <tr>
+                <td>
+                    <div class="card">
+                        <img src="images/snake.jfif" alt="Snake" style="width:100%">
+                        <h1>Snake</h1>
+                        <p class="price">Free</p>
+                        <p>You play as a snake trying to eat apples... But dont run into the walls!!</p>
+                        <p><button>Play</button></p>
+                    </div>
+                </td>
+                <td>
+                    <div class="card">
+                        <img src="images/snake.jfif" alt="Snake" style="width:100%">
+                        <h1>Dot Blast</h1>
+                        <p class="price">Free</p>
+                        <p>Blast the dots before they eat you!!</p>
+                        <p><button>Play</button></p>
+                    </div>
+                </td>
+                <td>
+                    <div class="card">
+                        <img src="images/snake.jfif" alt="Snake" style="width:100%">
+                        <h1>Snake</h1>
+                        <p class="price">Free</p>
+                        <p>You play as a snake trying to eat apples... But dont run into the walls!!</p>
+                        <p><button>Play</button></p>
+                    </div>
+                </td>
+                <td>
+                    <div class="card">
+                        <img src="images/snake.jfif" alt="Snake" style="width:100%">
+                        <h1>Dot Blast</h1>
+                        <p class="price">Free</p>
+                        <p>Blast the dots before they eat you!!</p>
+                        <p><button>Play</button></p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="puzzle">
+        <h2>Puzzle</h2>
+        <table>
+            <tr>
+                <td>
+                    <div class="card">
+                        <img src="images/snake.jfif" alt="Snake" style="width:100%">
+                        <h1>Snake</h1>
+                        <p class="price">Free</p>
+                        <p>You play as a snake trying to eat apples... But dont run into the walls!!</p>
+                        <p><button>Play</button></p>
+                    </div>
+                </td>
+                <td>
+                    <div class="card">
+                        <img src="images/snake.jfif" alt="Snake" style="width:100%">
+                        <h1>Dot Blast</h1>
+                        <p class="price">Free</p>
+                        <p>Blast the dots before they eat you!!</p>
+                        <p><button>Play</button></p>
+                    </div>
+                </td>
+                <td>
+                    <div class="card">
+                        <img src="images/snake.jfif" alt="Snake" style="width:100%">
+                        <h1>Snake</h1>
+                        <p class="price">Free</p>
+                        <p>You play as a snake trying to eat apples... But dont run into the walls!!</p>
+                        <p><button>Play</button></p>
+                    </div>
+                </td>
+                <td>
+                    <div class="card">
+                        <img src="images/snake.jfif" alt="Snake" style="width:100%">
+                        <h1>Dot Blast</h1>
+                        <p class="price">Free</p>
+                        <p>Blast the dots before they eat you!!</p>
+                        <p><button>Play</button></p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <div class="adventure">
+            <h2>Adventure</h2>
+            <table>
+                <tr>
+                    <td>
+                        <div class="card">
+                            <img src="images/snake.jfif" alt="Snake" style="width:100%">
+                            <h1>Snake</h1>
+                            <p class="price">Free</p>
+                            <p>You play as a snake trying to eat apples... But dont run into the walls!!</p>
+                            <p><button>Play</button></p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="card">
+                            <img src="images/snake.jfif" alt="Snake" style="width:100%">
+                            <h1>Dot Blast</h1>
+                            <p class="price">Free</p>
+                            <p>Blast the dots before they eat you!!</p>
+                            <p><button>Play</button></p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="card">
+                            <img src="images/snake.jfif" alt="Snake" style="width:100%">
+                            <h1>Snake</h1>
+                            <p class="price">Free</p>
+                            <p>You play as a snake trying to eat apples... But dont run into the walls!!</p>
+                            <p><button>Play</button></p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="card">
+                            <img src="images/snake.jfif" alt="Snake" style="width:100%">
+                            <h1>Dot Blast</h1>
+                            <p class="price">Free</p>
+                            <p>Blast the dots before they eat you!!</p>
+                            <p><button>Play</button></p>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+    </div>
 </body>
 </html>
